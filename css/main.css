@@ -1,0 +1,164 @@
+.container{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/*   Header   */
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 1000;
+	align-items: center;
+	margin-top: 20px;
+}
+.logo{
+	margin-left: 50px;
+}
+
+.nav{
+	justify-content: space-between;
+	align-items: center;
+}
+.nav_link{
+	margin-left: 50px;
+	text-decoration: none;
+	color: black;
+}
+.nav_link:hover{
+	border-bottom: 1px solid blue;
+	color: blue;
+}
+.data{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+select{
+	border: none;
+}
+
+/*   Intro    */  
+
+.intro{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.for_form{
+	width: 40%;
+	margin-left: 50px;
+}
+.for_form h3{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: rgba(0, 0, 0, .65);
+	margin-bottom: 8px;
+}
+.form{
+	margin-top: 25px;
+}
+.flexxs{
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.parts{
+	width: 33.3333%;
+}
+.s{
+	text-align: center;
+	margin-top: -5px;
+	font-size: 14px;
+}
+.b{
+	border-bottom: 1px solid gray;
+}
+.a span{
+	width: 33.3333%;
+	text-align: center;
+}
+.a span a img{
+	width: 100px;
+}
+input[type=text], input[type=password]{
+	width: 100%;
+	border-radius: 15px;
+	padding: 6px 15px;
+	border: 1px solid #8699DA;
+}
+.ttt{
+	margin-top: 10px;
+}
+.tes{
+	letter-spacing: 2px;
+	color: rgba(0, 0, 0, .60);
+	font-weight: 500;
+}
+.tte{
+	justify-content: space-between;
+}
+.qwe{
+	width: 50%;
+	font-weight: 500;
+	letter-spacing: .8px;
+}
+.xxs{
+	text-align: right;
+}
+.xxs a{
+	text-decoration: none;
+}
+.mar{
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.mar a{
+	text-decoration: none;
+}
+p button{
+	width: 100%;
+	border: none;
+	height: 40px;
+	border-radius: 18px;
+	background-color: #8699DA;
+}
+.burg{
+	display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+	.container{
+		width: 100%;
+		max-width: 970px;
+		margin: 0 auto;
+	}
+	.for_img, .imgss{
+		display: none;
+	}
+	.for_form{
+		width: 100%;
+		margin-left: 0;
+	}
+	.logo{
+		margin-left: 0;
+	}
+	.data{
+		display: none;
+	}
+	.dis{
+		display: none;
+	}
+	.burg{
+		display: flex;
+	}
+	.active{
+		display: block;
+	}
+	.active div{
+		margin-bottom: 15px;
+	}
+}
